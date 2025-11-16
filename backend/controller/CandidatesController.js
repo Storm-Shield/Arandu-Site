@@ -1,4 +1,4 @@
-import CandidatesRepository from "../repository/CandidatesRepository";
+import CandidatesRepository from "../repository/CandidatesRepository.js";
 const repository = new CandidatesRepository()
 
 class CandidatesController{
