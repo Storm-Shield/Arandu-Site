@@ -7,3 +7,5 @@ const router = express.Router()
 router.get("/", controller.listAll)
 router.get("/topics", controller.listTopics)
 router.get("/filter", controller.filterCandidates)
+
+export default routes
