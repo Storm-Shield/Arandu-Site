@@ -1,16 +1,16 @@
 import express from "express"
 import cors from "cors"
-import routes from "./routes/CandidatesRoutes.js"
+import router from "./routes/CandidatesRoutes.js"
 
 const app = express()
 
-app.use(cors)
+app.use(cors())
 
 app.use(express.json())
 
-app.use('/candidates', routes)
+app.use('/candidates', router)
 
-const PORT = 4000
+const PORT = 5000
 
 app.listen(PORT, () => {
     console.log("Server running on port: "+PORT)
