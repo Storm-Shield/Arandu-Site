@@ -2,19 +2,16 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root{
- 
-    /*Light mode*/
-    --bg-color: #F4F2EE;
+    --bg-color: #F8FDF9;
     --bg2-color: #FFFFFF;
-    --text-color: #0C1E1B;
-    --border-color: #34A065;
+    --bg3-color: #27AE60;
+    --text-color: #1A3C32;
+    --border-color: #D1E7DD;
+    --accent-color: #219653;
 
-
-    /*Dark mode*/
     --dark-bg-color: #193D34;
     --dark-bg2-color: #0C1E1B;
     --dark-border-color: #6FFF90;
     --dark-text1-color: #EFFFEF;
     --dark-text2-color: #30C251;
-
 }
