@@ -1,1 +1,18 @@
 @import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root{
+ 
+    /*Light mode*/
+    --light-bg-color: #EFFFEF;
+    --light-bg2-color: #879b66;
+    --light-text-color: #0C1E1B; 
+
+    /*Dark mode*/
+    --dark-bg-color: #193D34;
+    --dark-bg2-color: #0C1E1B;
+    --dark-bg3-color: #6FFF90;
+    --dark-text1-color: #EFFFEF;
+    --dark-text2-color: #30C251;
+
+}
