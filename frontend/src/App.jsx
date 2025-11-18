@@ -5,12 +5,13 @@ function App() {
   return (
     <>
     <div className="dark">
-      <div className="bg-[var(--bg-color)] dark:bg-[var(--dark-bg-color)] min-h-screen">
+      <div className="bg-light-bg dark:bg-dark-bg min-h-screen">
         <Routers/>
       </div>
     </div>
  
     </>
+
   )
 }
 
