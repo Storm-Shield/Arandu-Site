@@ -8,7 +8,7 @@ app.use(cors())
 
 app.use(express.json())
 
-app.use('/candidates', router)
+app.use('/', router)
 
 const PORT = 5000
 
