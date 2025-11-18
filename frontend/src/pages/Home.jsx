@@ -3,7 +3,7 @@ import Header from "../components/Header"
 const Home = () => {
     return(
         <>
-            <Header/>
+            
             <section className="flex justify-center items-center bg-light-bg dark:bg-dark-bg h-screen">
                 <div className="rounded-3xl bg-light-bg2 dark:bg-dark-bg2 border border-light-border dark:border-dark-border text-center p-16 pb-20 shadow-lg relative">
                     <div className="flex justify-center mb-8">

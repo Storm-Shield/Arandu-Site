@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "David Magalhaẽs",
-        "photo": "./images/foto1.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "State Deputy",
         "summary": "Psychologist and state deputy dedicated to implementing public policies focused on mental health, education, and human rights. Combines clinical experience with legislative action to create a more just and empathetic society.",
         "localization": "São Paulo/SP",
@@ -47,7 +47,7 @@
     {
         "id": 2,
         "name": "Ana Silva Santos",
-        "photo": "./images/foto2.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Urban Planning Manager",
         "summary": "Architect specialized in urban planning with 10 years of experience in developing sustainable and inclusive cities. Focused on integrating green areas and efficient public transportation.",
         "localization": "Curitiba/PR",
@@ -91,7 +91,7 @@
     {
         "id": 3,
         "name": "Carlos Eduardo Lima",
-        "photo": "./images/foto3.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Public Health Coordinator",
         "summary": "Physician with specialization in Public Health and extensive experience in managing healthcare programs and epidemiological surveillance.",
         "localization": "Salvador/BA",
@@ -134,7 +134,7 @@
     {
         "id": 4,
         "name": "Fernanda Costa Oliveira",
-        "photo": "./images/foto4.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Environmental Analyst",
         "summary": "Biologist with master's degree in Ecology, working in environmental licensing and impact studies for infrastructure projects.",
         "localization": "Brasília/DF",
@@ -179,7 +179,7 @@
     {
         "id": 5,
         "name": "Ricardo Almeida Ferreira",
-        "photo": "./images/foto5.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "IT Project Manager",
         "summary": "Computer scientist with MBA in Project Management, specializing in implementing digital government solutions and digital transformation in the public sector.",
         "localization": "Recife/PE",
@@ -223,7 +223,7 @@
     {
         "id": 6,
         "name": "Juliana Pereira Rodrigues",
-        "photo": "./images/foto6.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Education Secretary",
         "summary": "Pedagogue with experience in educational management and public policies for basic education. Focused on improving educational indicators and teacher training.",
         "localization": "Fortaleza/CE",
@@ -267,7 +267,7 @@
     {
         "id": 7,
         "name": "Roberto Santos Andrade",
-        "photo": "./images/foto7.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Public Security Analyst",
         "summary": "Expert in public security with background in Social Sciences, working in crime prevention and analysis of criminal phenomena.",
         "localization": "Rio de Janeiro/RJ",
@@ -310,7 +310,7 @@
     {
         "id": 8,
         "name": "Patrícia Lima Souza",
-        "photo": "./images/foto8.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Social Assistance Manager",
         "summary": "Social Worker with extensive experience in managing social assistance programs and serving vulnerable populations.",
         "localization": "Belo Horizonte/MG",
@@ -353,7 +353,7 @@
     {
         "id": 9,
         "name": "Marcos Vinicius Rocha",
-        "photo": "./images/foto9.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Public Works Engineer",
         "summary": "Civil engineer specialized in public infrastructure projects, with experience in managing works and supervising engineering services.",
         "localization": "Porto Alegre/RS",
@@ -397,7 +397,7 @@
     {
         "id": 10,
         "name": "Camila Nascimento Alves",
-        "photo": "./images/foto10.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Cultural Manager",
         "summary": "Professional with background in Arts and specialization in Cultural Management, working in the formulation and implementation of cultural policies.",
         "localization": "Salvador/BA",
@@ -442,7 +442,7 @@
     {
         "id": 11,
         "name": "Bruno Carvalho Mendes",
-        "photo": "./images/foto11.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Sports and Leisure Secretary",
         "summary": "Physical Education professional with experience in managing sports programs and developing public policies for leisure and sports.",
         "localization": "Manaus/AM",
@@ -485,7 +485,7 @@
     {
         "id": 12,
         "name": "Tatiane Ribeiro Costa",
-        "photo": "./images/foto12.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Public Prosecutor",
         "summary": "Lawyer with master's degree in Constitutional Law, acting in the defense of collective rights and social interests with emphasis on environmental protection and consumer rights.",
         "localization": "Florianópolis/SC",
@@ -529,7 +529,7 @@
     {
         "id": 13,
         "name": "Rafael Mendonça Teixeira",
-        "photo": "./images/foto13.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Public Defender",
         "summary": "Lawyer dedicated to guaranteeing access to justice for vulnerable populations, with experience in human rights and diffuse rights.",
         "localization": "Belém/PA",
@@ -572,7 +572,7 @@
     {
         "id": 14,
         "name": "Isabela Santos Oliveira",
-        "photo": "./images/foto14.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Public Policy Analyst",
         "summary": "Social scientist with experience in formulating, monitoring and evaluating public policies, with emphasis on social development programs.",
         "localization": "Brasília/DF",
@@ -617,7 +617,7 @@
     {
         "id": 15,
         "name": "Leonardo Ferreira Silva",
-        "photo": "./images/foto15.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Federal Auditor",
         "summary": "Economist specialized in public finance and external control, acting in auditing and inspection of the application of public resources.",
         "localization": "Brasília/DF",
@@ -661,7 +661,7 @@
     {
         "id": 16,
         "name": "Mariana Costa Lima",
-        "photo": "./images/foto16.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Science and Technology Manager",
         "summary": "Biochemist with doctorate in Biotechnology, working in the management of research, innovation and scientific development programs.",
         "localization": "Campinas/SP",
@@ -706,7 +706,7 @@
     {
         "id": 17,
         "name": "André Pereira Santos",
-        "photo": "./images/foto17.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Human Resources Manager",
         "summary": "Administrator with specialization in People Management, acting in personnel administration, development and management of public servants.",
         "localization": "Belo Horizonte/MG",
@@ -750,7 +750,7 @@
     {
         "id": 18,
         "name": "Carla Rodrigues Almeida",
-        "photo": "./images/foto18.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Agrarian Development Technician",
         "summary": "Agronomist with experience in rural development programs, family farming and sustainable agricultural production.",
         "localization": "Goiânia/GO",
@@ -793,7 +793,7 @@
     {
         "id": 19,
         "name": "Paulo Henrique Barbosa",
-        "photo": "./images/foto19.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Tourism Manager",
         "summary": "Tourism professional with experience in developing and managing tourist destinations, with emphasis on sustainable and cultural tourism.",
         "localization": "Recife/PE",
@@ -838,7 +838,7 @@
     {
         "id": 20,
         "name": "Fernanda Oliveira Souza",
-        "photo": "./images/foto20.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Social Communication Analyst",
         "summary": "Journalist with experience in institutional communication, press advisory and digital media management in the public sector.",
         "localization": "Porto Alegre/RS",
@@ -883,7 +883,7 @@
     {
         "id": 21,
         "name": "Rodrigo Silva Costa",
-        "photo": "./images/foto21.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Urban Mobility Coordinator",
         "summary": "Transport engineer specialized in urban mobility, working in planning and managing public transport and active mobility systems.",
         "localization": "Fortaleza/CE",
@@ -927,7 +927,7 @@
     {
         "id": 22,
         "name": "Prof. Dr. Miguel Santos Carvalho",
-        "photo": "./images/foto22.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "University Professor",
         "summary": "PhD in Education with 15 years of experience in higher education, researching educational technologies and innovative teaching methodologies.",
         "localization": "São Paulo/SP",
@@ -976,7 +976,7 @@
     {
         "id": 23,
         "name": "Dra. Simone Alves Pereira",
-        "photo": "./images/foto23.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "High School Teacher",
         "summary": "Licensed in Literature with specialization in Portuguese Language Teaching, dedicated to innovative pedagogical practices and student development.",
         "localization": "Rio de Janeiro/RJ",
@@ -1021,7 +1021,7 @@
     {
         "id": 24,
         "name": "Ricardo Martins Ferreira",
-        "photo": "./images/foto24.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Data Scientist",
         "summary": "Computer scientist with MBA in Data Science, specializing in big data analysis and machine learning for public policy optimization.",
         "localization": "São Paulo/SP",
@@ -1065,7 +1065,7 @@
     {
         "id": 25,
         "name": "Patrícia Nunes Costa",
-        "photo": "./images/foto25.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Nursing Coordinator",
         "summary": "Nurse with master's degree in Public Health, experienced in managing nursing teams and implementing health programs in primary care.",
         "localization": "Belo Horizonte/MG",
@@ -1109,7 +1109,7 @@
     {
         "id": 26,
         "name": "Carlos Eduardo Ramos",
-        "photo": "./images/foto26.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Cybersecurity Specialist",
         "summary": "Information security professional with certifications in cybersecurity, protecting critical government infrastructure and data.",
         "localization": "Brasília/DF",
@@ -1153,7 +1153,7 @@
     {
         "id": 27,
         "name": "Prof. Me. Ana Carolina Mendes",
-        "photo": "./images/foto27.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Elementary School Teacher",
         "summary": "Pedagogue with master's degree in Education, specializing in literacy and early childhood education with innovative approaches.",
         "localization": "Curitiba/PR",
@@ -1196,7 +1196,7 @@
     {
         "id": 28,
         "name": "Julio Cesar Oliveira",
-        "photo": "./images/foto28.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Full Stack Developer",
         "summary": "Systems analyst and developer with expertise in modern web technologies and agile software development for government digital services.",
         "localization": "São Paulo/SP",
@@ -1240,7 +1240,7 @@
     {
         "id": 29,
         "name": "Dra. Mariana Santos Silva",
-        "photo": "./images/foto29.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "University Professor - Law",
         "summary": "Doctor in Constitutional Law with extensive academic experience, researching human rights and constitutional guarantees.",
         "localization": "Porto Alegre/RS",
@@ -1289,7 +1289,7 @@
     {
         "id": 30,
         "name": "Roberto Almeida Costa",
-        "photo": "./images/foto30.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "DevOps Engineer",
         "summary": "IT professional specialized in DevOps practices, automation and cloud infrastructure for government technology environments.",
         "localization": "Brasília/DF",
@@ -1333,7 +1333,7 @@
     {
         "id": 31,
         "name": "Prof. Dr. Antonio Carlos Ferreira",
-        "photo": "./images/foto31.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Professor of Medicine",
         "summary": "Medical doctor with PhD in Cardiology, combining clinical practice with academic activity and research in cardiovascular diseases.",
         "localization": "São Paulo/SP",
@@ -1382,7 +1382,7 @@
     {
         "id": 32,
         "name": "Amanda Ribeiro Torres",
-        "photo": "./images/foto32.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Early Childhood Education Teacher",
         "summary": "Pedagogue specialized in Early Childhood Education, developing playful and creative activities for child development.",
         "localization": "Florianópolis/SC",
@@ -1425,7 +1425,7 @@
     {
         "id": 33,
         "name": "Bruno Costa Lima",
-        "photo": "./images/foto33.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "AI Engineer",
         "summary": "Computer engineer specialized in Artificial Intelligence, developing intelligent solutions for public service optimization.",
         "localization": "Campinas/SP",
@@ -1469,7 +1469,7 @@
     {
         "id": 34,
         "name": "Carla Santos Oliveira",
-        "photo": "./images/foto34.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Special Education Teacher",
         "summary": "Pedagogue specialized in Special Education, working with inclusive education and developing adapted teaching strategies.",
         "localization": "Porto Alegre/RS",
@@ -1513,7 +1513,7 @@
     {
         "id": 35,
         "name": "Daniel Almeida Silva",
-        "photo": "./images/foto35.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Cloud Architect",
         "summary": "IT professional specialized in cloud solutions architecture, designing and implementing scalable government infrastructures.",
         "localization": "São Paulo/SP",
@@ -1557,7 +1557,7 @@
     {
         "id": 36,
         "name": "Eduarda Martins Costa",
-        "photo": "./images/foto36.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "History Teacher",
         "summary": "Historian and licensed teacher, passionate about teaching history with critical and reflective approaches.",
         "localization": "Salvador/BA",
@@ -1601,7 +1601,7 @@
     {
         "id": 37,
         "name": "Fábio Henrique Pereira",
-        "photo": "./images/foto37.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Mobile Developer",
         "summary": "Software developer specialized in mobile applications, creating government apps with focus on usability and accessibility.",
         "localization": "Belo Horizonte/MG",
@@ -1645,7 +1645,7 @@
     {
         "id": 38,
         "name": "Gabriela Rocha Santos",
-        "photo": "./images/foto38.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Mathematics Teacher",
         "summary": "Mathematics teacher with innovative approaches to make learning math more engaging and accessible to all students.",
         "localization": "Curitiba/PR",
@@ -1689,7 +1689,7 @@
     {
         "id": 39,
         "name": "Henrique Oliveira Lima",
-        "photo": "./images/foto39.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "UX/UI Designer",
         "summary": "Designer specialized in User Experience and User Interface, creating intuitive and accessible digital solutions for government.",
         "localization": "São Paulo/SP",
@@ -1733,7 +1733,7 @@
     {
         "id": 40,
         "name": "Isabela Costa Rodrigues",
-        "photo": "./images/foto40.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Science Teacher",
         "summary": "Biologist and science teacher, passionate about scientific education and hands-on experimental activities.",
         "localization": "Rio de Janeiro/RJ",
@@ -1777,7 +1777,7 @@
     {
         "id": 41,
         "name": "João Pedro Almeida",
-        "photo": "./images/foto41.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "QA Engineer",
         "summary": "Quality Assurance engineer specialized in test automation and software quality for critical government systems.",
         "localization": "Brasília/DF",
@@ -1821,7 +1821,7 @@
     {
         "id": 42,
         "name": "Karen Silva Santos",
-        "photo": "./images/foto42.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Geography Teacher",
         "summary": "Geographer and teacher, integrating geographic knowledge with environmental and social awareness in the classroom.",
         "localization": "Fortaleza/CE",
@@ -1865,7 +1865,7 @@
     {
         "id": 43,
         "name": "Lucas Martins Ferreira",
-        "photo": "./images/foto43.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Blockchain Developer",
         "summary": "Developer specialized in blockchain technology, creating transparent and secure solutions for government applications.",
         "localization": "São Paulo/SP",
@@ -1909,7 +1909,7 @@
     {
         "id": 44,
         "name": "Mariana Oliveira Costa",
-        "photo": "./images/foto44.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Physical Education Teacher",
         "summary": "Physical Education professional promoting health, wellness and sports practice in the school environment.",
         "localization": "Porto Alegre/RS",
@@ -1952,7 +1952,7 @@
     {
         "id": 45,
         "name": "Nathan Silva Alves",
-        "photo": "./images/foto45.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "IoT Specialist",
         "summary": "Engineer specialized in Internet of Things, developing smart solutions for urban infrastructure and public services.",
         "localization": "Curitiba/PR",
@@ -1996,7 +1996,7 @@
     {
         "id": 46,
         "name": "Olivia Rodrigues Santos",
-        "photo": "./images/foto46.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Arts Teacher",
         "summary": "Visual artist and teacher, integrating artistic expression with cultural education and creative development.",
         "localization": "Salvador/BA",
@@ -2040,7 +2040,7 @@
     {
         "id": 47,
         "name": "Paulo Ricardo Lima",
-        "photo": "./images/foto47.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Site Reliability Engineer",
         "summary": "SRE ensuring reliability, scalability and performance of critical government digital services.",
         "localization": "Brasília/DF",
@@ -2084,7 +2084,7 @@
     {
         "id": 48,
         "name": "Quintino Barbosa Silva",
-        "photo": "./images/foto48.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Philosophy Teacher",
         "summary": "Philosopher and teacher, promoting critical thinking and philosophical reflection among high school students.",
         "localization": "São Paulo/SP",
@@ -2129,7 +2129,7 @@
     {
         "id": 49,
         "name": "Rafaela Costa Martins",
-        "photo": "./images/foto49.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Sociology Teacher",
         "summary": "Sociologist and teacher, analyzing social phenomena and promoting social awareness in the classroom.",
         "localization": "Rio de Janeiro/RJ",
@@ -2173,7 +2173,7 @@
     {
         "id": 50,
         "name": "Sérgio Almeida Oliveira",
-        "photo": "./images/foto50.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Database Administrator",
         "summary": "DBA specialized in managing and optimizing large government databases, ensuring data integrity and performance.",
         "localization": "Belo Horizonte/MG",
@@ -2217,7 +2217,7 @@
     {
         "id": 51,
         "name": "Tatiane Martins Costa",
-        "photo": "./images/foto51.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Portuguese Language Teacher",
         "summary": "Language teacher specializing in Portuguese, literature and textual production, with innovative teaching approaches.",
         "localization": "Porto Alegre/RS",
@@ -2262,7 +2262,7 @@
     {
         "id": 52,
         "name": "Ulisses Rodrigues Alves",
-        "photo": "./images/foto52.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Network Administrator",
         "summary": "Network specialist managing government communication infrastructure and ensuring connectivity and security.",
         "localization": "Brasília/DF",
@@ -2306,7 +2306,7 @@
     {
         "id": 53,
         "name": "Vanessa Lima Santos",
-        "photo": "./images/foto53.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Foreign Language Teacher",
         "summary": "Language teacher specializing in English and Spanish, using communicative approaches and cultural immersion.",
         "localization": "São Paulo/SP",
@@ -2352,7 +2352,7 @@
     {
         "id": 54,
         "name": "William Costa Silva",
-        "photo": "./images/foto54.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Systems Analyst",
         "summary": "Systems analyst developing and maintaining government information systems with focus on efficiency and user needs.",
         "localization": "Curitiba/PR",
@@ -2396,7 +2396,7 @@
     {
         "id": 55,
         "name": "Xavier Almeida Rodrigues",
-        "photo": "./images/foto55.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Chemistry Teacher",
         "summary": "Chemist and teacher making chemistry accessible and engaging through experiments and real-world applications.",
         "localization": "Campinas/SP",
@@ -2440,7 +2440,7 @@
     {
         "id": 56,
         "name": "Yasmin Santos Oliveira",
-        "photo": "./images/foto56.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Biology Teacher",
         "summary": "Biologist and teacher passionate about life sciences, ecology and environmental education.",
         "localization": "Manaus/AM",
@@ -2484,7 +2484,7 @@
     {
         "id": 57,
         "name": "Zelia Costa Martins",
-        "photo": "./images/foto57.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Physics Teacher",
         "summary": "Physicist and teacher demystifying physics concepts through practical demonstrations and real-world applications.",
         "localization": "São José dos Campos/SP",
@@ -2528,7 +2528,7 @@
     {
         "id": 58,
         "name": "Alice Pereira Costa",
-        "photo": "./images/foto58.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "Educational Technology Specialist",
         "summary": "Pedagogue specialized in educational technology, integrating digital tools and innovative methodologies in education.",
         "localization": "Recife/PE",
@@ -2572,7 +2572,7 @@
     {
         "id": 59,
         "name": "Bruno Henrique Alves",
-        "photo": "./images/foto59.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "IT Infrastructure Manager",
         "summary": "IT manager overseeing government technology infrastructure, ensuring reliability and strategic alignment with organizational goals.",
         "localization": "Brasília/DF",
@@ -2616,7 +2616,7 @@
     {
         "id": 60,
         "name": "Camila Rodrigues Silva",
-        "photo": "./images/foto60.jpg",
+        "photo": "./perfil/foto1.jpg",
         "position": "School Principal",
         "summary": "Educational manager with experience in school administration, pedagogical coordination and educational leadership.",
         "localization": "São Paulo/SP",
