@@ -9,9 +9,10 @@
     --color-light-border: #99F6E4;
     --color-light-accent: #0F766E;
 
-    --color-dark-bg: #153A37;
-    --color-dark-bg2: #0F2A28;
-    --color-dark-border: #229283;
-    --color-dark-text1: #F0FDFA;
-    --color-dark-text2: #5EEAD4;
+    --color-dark-bg: #0A1A18;       
+    --color-dark-bg2: #061413;      
+    --color-dark-bg3: #153A37;      
+    --color-dark-border: #229283;   
+    --color-dark-text1: #F0FDFA;    
+    --color-dark-text2: #5EEAD4;    
 }
