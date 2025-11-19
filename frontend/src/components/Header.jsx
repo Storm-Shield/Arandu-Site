@@ -7,12 +7,16 @@ const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const {isDark, toggleTheme} = useTheme()
 
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(flase)
+    }
+
     return(
         <header className="bg-transparent border-b border-light-border dark:border-dark-border absolute w-full z-50 backdrop-blur-sm bg-white/10 dark:bg-dark-bg2/10">
             <nav className="container mx-auto px-4 ">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
-                        <Link to="/" className="flex items-center -ml-2">
+                        <Link to="/" className="flex items-center -ml-2" onClick={closeMobileMenu}>
                             <img 
                                 src="/logo/arandu-h.png" 
                                 alt="logo" 
@@ -73,15 +77,15 @@ const Header = () => {
 
                 <div className={`md:hidden mt-4 ${isMobileMenuOpen ? 'block' : 'hidden'} bg-white/90 dark:bg-dark-bg2/90 rounded-lg p-4 backdrop-blur-sm`}>
                     <div className="flex flex-col space-y-4">
-                             <Link to="/" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium">
+                             <Link to="/" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium" onClick={closeMobileMenu}>
                             Home
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-light-accent dark:bg-dark-text2 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link to="/feed" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium">
+                        <Link to="/feed" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium" onClick={closeMobileMenu}>
                             Feed
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-light-accent dark:bg-dark-text2 group-hover:w-full transition-all duration-300"></span>
                         </Link>
-                        <Link to="/about" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium">
+                        <Link to="/about" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium" onClick={closeMobileMenu}>
                             About
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-light-accent dark:bg-dark-text2 group-hover:w-full transition-all duration-300"></span>
                         </Link>
