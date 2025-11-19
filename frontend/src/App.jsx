@@ -1,13 +1,15 @@
 import Routers from "./Routes"
+import { ThemeProvider } from "./context/ThemeContext.jsx"
 
 function App() {
   return (
     <>
-      <div className="">
+      <ThemeProvider>
         <div className="bg-light-bg dark:bg-dark-bg ">
           <Routers/>
         </div>
-      </div>
+
+      </ThemeProvider> 
     </>
   )
 }

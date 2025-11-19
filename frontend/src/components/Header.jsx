@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
+import {FaSun, FaMoon} from 'react-icons/fa'
 import { useState } from 'react';
+import { useTheme } from '../context/ThemeContext.jsx';
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const {isDark, toggleTheme} = useTheme()
 
     return(
         <header className="bg-transparent border-b border-light-border dark:border-dark-border absolute w-full z-50 backdrop-blur-sm bg-white/10 dark:bg-dark-bg2/10">
@@ -24,7 +27,7 @@ const Header = () => {
                     </div>
 
                     <div className="hidden md:flex items-center space-x-8">
-                        <Link to="/home" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium">
+                        <Link to="/" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium">
                             Home
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-light-accent dark:bg-dark-text2 group-hover:w-full transition-all duration-300"></span>
                         </Link>
@@ -36,6 +39,16 @@ const Header = () => {
                             About
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-light-accent dark:bg-dark-text2 group-hover:w-full transition-all duration-300"></span>
                         </Link>
+
+                        <button
+                            onClick={toggleTheme}
+                            className='p-2 rounded-lg hover:bg-light-bg3/10 dark:hover:bg-dark-text2/2 transition-colors'
+                        >
+                        {isDark ?
+                        <FaSun className='text-yellow-500 w-5 h-5'/>:
+                        <FaMoon className='text-light-text w-5 h-5'/>    
+                    }
+                        </button>
                     </div>
                     
                     <button 
