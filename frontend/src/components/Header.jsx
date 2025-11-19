@@ -5,20 +5,20 @@ const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return(
-        <header className="bg-transparent border-b border-light-border dark:border-dark-border fixed w-full z-50 backdrop-blur-sm bg-white/10 dark:bg-dark-bg2/10">
-            <nav className="container mx-auto px-4 py-4">
+        <header className="bg-transparent border-b border-light-border dark:border-dark-border absolute w-full z-50 backdrop-blur-sm bg-white/10 dark:bg-dark-bg2/10">
+            <nav className="container mx-auto px-4 ">
                 <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                        <Link to="/" className="flex items-center">
+                    <div className="flex items-center">
+                        <Link to="/" className="flex items-center -ml-2">
                             <img 
-                                src="/logo/arandu.jpeg" 
+                                src="/logo/arandu-h.png" 
                                 alt="logo" 
-                                className="h-12 w-auto block dark:hidden"
+                                className="h-28 object-cover block dark:hidden"
                             />
                             <img 
-                                src="/logo/arandu-dark.jpeg" 
+                                src="/logo/arandu-h-dark.png" 
                                 alt="logo" 
-                                className="h-12 w-auto hidden dark:block"
+                                className="h-28 w-auto hidden dark:block"
                             />
                         </Link>
                     </div>

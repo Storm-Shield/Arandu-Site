@@ -12,27 +12,27 @@ const Home = () => {
                             Busque novas áreas e pessoas. Traduza suas habilidades para o novo mercado
                         </h1>
 
-                        <div className="space-x-4 mb-12">
+                        {/* <div className="space-x-4 mb-12">
                             <button className="p-5 px-12 rounded-xl font-medium text-white bg-light-bg3 hover:bg-light-accent transition-colors duration-300 shadow-md w-59">
                                 Encontre pessoas
                             </button>
                             <button className="p-5 px-12 rounded-xl font-medium border border-light-bg3 text-light-bg3 dark:text-dark-text2 dark:border-dark-text2 bg-transparent hover:bg-light-bg3 hover:text-white dark:hover:bg-dark-text2 dark:hover:text-dark-bg2 transition-colors duration-300 w-59">
                                 Atualize-se
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                     
                     <div className="flex flex-col justify-center items-center ">
                         <div className="flex justify-center mb-8">
                             <img 
-                                src="/logo/arandu.jpeg" 
+                                src="/logo/arandu-v.png" 
                                 alt="Logo" 
-                                className="w-auto h-24 block dark:hidden"
+                                className="w-auto h-full block dark:hidden"
                             />
                             <img 
-                                src="/logo/arandu-dark.jpeg" 
+                                src="/logo/arandu-v-dark.png" 
                                 alt="Logo" 
-                                className="w-auto h-24 hidden dark:block"
+                                className="w-auto h-full hidden dark:block"
                             />
                         </div>
                         <div className="">
