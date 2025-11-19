@@ -7,13 +7,13 @@ const Home = () => {
         <>
             <Header />
             <section className="flex justify-center items-center h-screen border-b-8 border-light-border dark:border-dark-border">
-                <div className="grid grid-cols-3 w-auto h-screen bg-gradient-to-bl from-[#F0FDF9] to-[#0D9488] dark:bg-gradient-to-bl dark:from-[#0D9488] dark:to-[#061413]">
+                <div className="grid grid-cols-3 w-auto h-screen bg-linear-to-bl from-light-bg to-light-bg3 dark:bg-linear-to-bl dark:from-light-bg3 dark:to-dark-bg2">
                     <div className="col-span-2 flex flex-col justify-center items-start text-center p-16 pb-20 relative mt-20">
                         <h1 className="text-6xl font-extrabold text-light-text dark:text-dark-text1 mb-8 text-justify">
                             Busque novas áreas e pessoas.<br/>Traduza suas habilidades para o novo mercado.
                         </h1>
 
-                        <div className="space-x-4 mt-12">
+                        <div className="space-x-4 mt-12 mb-12">
                             <Link to="/feed" className="p-6 px-13 rounded-xl font-medium text-white bg-light-bg3 hover:bg-light-accent transition-colors duration-300 shadow-md w-59">
                                 Encontre pessoas
                             </Link>
@@ -21,7 +21,14 @@ const Home = () => {
                                 Cadastre-se
                             </Link>
                         </div>
+
+                        <div className="">
+                            <p className="text-xs text-light-text dark:text-dark-text1 opacity-70">
+                                Desenvolvido por [Carlos Sanches - Vitor Ramos]
+                            </p>
+                        </div>
                     </div>
+                    
                     
                     <div className="flex flex-col justify-center items-center ">
                         <div className="flex justify-center mb-8">

@@ -5,10 +5,9 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        <div className="bg-light-bg dark:bg-dark-bg ">
+        <div className="bg-light-bg dark:bg-dark-bg">
           <Routers/>
         </div>
-
       </ThemeProvider> 
     </>
   )

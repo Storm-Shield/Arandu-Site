@@ -9,7 +9,7 @@ const Feed = () => {
     const [cities, setCities] = useState([])
     const [selectedArea, setSelectedArea] = useState("")
     const [selectedCity, setSelectedCity] = useState("")
-    const candidatesPerPage = 5
+    const candidatesPerPage = 3
 
     useEffect(()=> {
         const fetchCandidates = async () => {
@@ -68,20 +68,14 @@ const Feed = () => {
     const visiblePages = getVisiblePages()
     return(
         <>
-            <main className="flex flex-col items-center p-8">
-                
-                <div className="flex flex-row gap-12">
-                    
-                    <div className="grid grid-cols-1 overflow-hidden gap-3 w-5xl">
-                        {currentCandidates.map(c => (
-                            <SimpleCandidatesCard key={c.id} {...c}/>
-                        ))}
-                    </div>
-                    
-                    <div className="flex flex-col">
+            <main className="flex flex-col items-center p-8 justify-center container mx-auto pt-37 min-h-screen">
+                    <h2 className="text-3xl font-light text-light-text dark:text-dark-text1 text-center mb-8">
+                        Candidatos em Destaque
+                    </h2>
+                    <div className="w-full max-w-6xl mb-6 sm:mb-8">
                         
                         <div className="grid grid-cols-2 gap-2">
-                           <select value={selectedArea} onChange={(e) => setSelectedArea(e.target.value)} className="bg-light-bg2 dark:bg-dark-bg3 p-2 text-xl border border-light-border text-light-accent dark:border-dark-border dark:text-dark-text2">
+                           <select value={selectedArea} onChange={(e) => setSelectedArea(e.target.value)} className="bg-light-bg2 dark:bg-dark-bg3 p-2 text-xl border border-light-border text-light-accent dark:border-dark-border dark:text-dark-text2 rounded-lg">
                             <option value="" disabled>Filtre por área</option>
                             <option value="">All</option>
                             {
@@ -90,7 +84,7 @@ const Feed = () => {
                                 ))
                             }
                            </select>
-                           <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)} className="bg-light-bg2 dark:bg-dark-bg3 p-2 text-xl border border-light-border text-light-accent dark:border-dark-border dark:text-dark-text2">
+                           <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)} className="bg-light-bg2 dark:bg-dark-bg3 p-2 text-xl border border-light-border text-light-accent dark:border-dark-border dark:text-dark-text2 rounded-lg">
                             <option value="" disabled>Filtre por cidades</option>
                             <option value="">All</option>
                             {
@@ -146,6 +140,23 @@ const Feed = () => {
 
                         </div>
                     </div>
+                <div className="w-full lg:w-2/3">
+                    
+                    <div className="grid grid-cols-1 overflow-hidden gap-3 w-full flex-1">
+                        {currentCandidates.length > 0? (
+                            currentCandidates.map(c => (
+                                <SimpleCandidatesCard key={c.if} {...c}/>
+                            ))
+                        ) : (
+                            <div className="flex items-center justify-center h-64">
+                                <p className="text-light-text dark:text-dark-text1 text-xl">
+                                    Nenhum candidato encontrado com os filtros selecionados.
+                                </p>
+                            </div>
+                        )}
+                    </div>
+                    
+                    
                 </div>
             </main>
         </>
