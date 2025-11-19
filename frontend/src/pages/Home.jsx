@@ -5,9 +5,9 @@ const Home = () => {
     return(
         <>
             <Header />
-           <main className="flex justify-center items-center min-h-screen border-b-8 border-light-border dark:border-dark-border pt-16">
-                  <div className="absolute inset-0 bg-gradient-to-bl from-[#F0FDF9] to-[#0D9488] dark:bg-gradient-to-bl dark:from-[#0D9488] dark:to-[#061413] z-0"></div>
-                          <div className="lg:hidden absolute inset-0 z-10 flex justify-center items-center opacity-30">
+           <main className="flex justify-center items-center min-h-screen border-b-2 border-light-border dark:border-dark-border pt-16 relative overflow-hidden">
+             <div className="absolute inset-0 bg-gradient-to-bl from-[#F0FDF9] to-[#0D9488] dark:bg-gradient-to-bl dark:from-[#0D9488] dark:to-[#061413] z-0"></div>
+            <div className="lg:hidden absolute inset-0 z-10 flex justify-center items-center opacity-30">
                     <img 
                         src="/logo/arandu-v.png" 
                         alt="Logo" 
@@ -20,7 +20,7 @@ const Home = () => {
                     />
                 </div>
 
-                     <div className="grid grid-cols-1 lg:grid-cols-3 w-full h-full lg:h-screen relative z-20">
+                     <div className="grid grid-cols-1 lg:grid-cols-3 w-full mx-auto relative z-20">
                          <div className="col-span-1 lg:col-span-2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left p-6 sm:p-8 lg:p-16 lg:pb-20">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-light-text dark:text-dark-text1 mb-6 lg:mb-8 leading-tight">
                             Busque novas áreas e pessoas.<br/>Traduza suas habilidades para o novo mercado.
