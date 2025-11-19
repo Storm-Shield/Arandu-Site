@@ -22,15 +22,10 @@ class CandidatesRepository{
                 const parts = c.localization.split('/')
                 return parts[0]
             }))]
-            const states = [...new Set(candidates.map(c => {
-                const parts = c.localization.split('/')
-                return parts[1] || parts[0]
-            }))]
             const area = [...new Set(candidates.map(c => c.area))]
             return {
                 "areas": area, 
                 "cities": cities, 
-                "states": states 
         }
         }catch (error){
            throw new Error("List Topics: " + error) 
