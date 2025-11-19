@@ -70,7 +70,7 @@ const Feed = () => {
         <>
             <main className="flex flex-col items-center p-8">
                 
-                <div className="grid grid-cols-2">
+                <div className="flex flex-row gap-12">
                     
                     <div className="grid grid-cols-1 overflow-hidden gap-3 w-5xl">
                         {currentCandidates.map(c => (
@@ -78,10 +78,10 @@ const Feed = () => {
                         ))}
                     </div>
                     
-                    <div>
+                    <div className="flex flex-col">
                         
-                        <div>
-                           <select value={selectedArea} onChange={(e) => setSelectedArea(e.target.value)}>
+                        <div className="grid grid-cols-2 gap-2">
+                           <select value={selectedArea} onChange={(e) => setSelectedArea(e.target.value)} className="bg-light-bg2 dark:bg-dark-bg3 p-2 text-xl border border-light-border text-light-accent dark:border-dark-border dark:text-dark-text2">
                             <option value="" disabled>Filtre por área</option>
                             <option value="">All</option>
                             {
@@ -90,7 +90,7 @@ const Feed = () => {
                                 ))
                             }
                            </select>
-                           <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)}>
+                           <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)} className="bg-light-bg2 dark:bg-dark-bg3 p-2 text-xl border border-light-border text-light-accent dark:border-dark-border dark:text-dark-text2">
                             <option value="" disabled>Filtre por cidades</option>
                             <option value="">All</option>
                             {
