@@ -20,13 +20,23 @@ class CandidatesController{
         }
     }
 
-    async filterCandidates(req, res){
+    async filterCandidatesById(req, res){
+        try{
+            const {id} = req.params
+            const candidates = await repository.filterById(id)
+            res.status(200).json(candidates)
+        }catch (error){
+            res.status(500).json({message: "Error to filter candidates by id: "+error.message})
+        }
+    }
+
+    async filterCandidatesByTopics(req, res){
         try{
             const { city, area } = req.query
             const candidates = await repository.filterByTopics(city, area)
             res.status(200).json(candidates)
         }catch (error){
-            res.status(500).json({message: "Error to filter candidates: "+ error.message})
+            res.status(500).json({message: "Error to filter candidates by area or city: "+ error.message})
         }
     }
 }

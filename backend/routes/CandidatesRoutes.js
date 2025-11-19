@@ -6,6 +6,7 @@ const router = express.Router()
 
 router.get("/", controller.listAll)
 router.get("/topics", controller.listTopics)
-router.get("/filter", controller.filterCandidates)
+router.get("/candidate/:id", controller.filterCandidatesById)
+router.get("/filter", controller.filterCandidatesByTopics)
 
 export default router
