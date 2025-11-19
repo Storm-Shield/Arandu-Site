@@ -40,7 +40,7 @@ class CandidatesRepository{
             }
             
             const candidates = await this.listAll()
-        return candidates.filter(c => c.id === parseInt(id))
+        return candidates.find(c => c.id === parseInt(id))
         }catch(error){
              throw new Error("Candidate not fund!")
         }

@@ -1,4 +1,9 @@
-const SimpleCandidatesCard = ({name, photo, position, summary, localization, area, interestsArea}) => {
+import { useState } from "react"
+import ExtendCandidatesCard from "./ExtendCandidatesCard"
+
+const SimpleCandidatesCard = ({id, name, photo, position, summary, localization, interestsArea}) => {
+    const [showExtended, setShowExtended] = useState(false)
+
     return(
         <>
            <article className="flex flex-col sm:flex-row bg-light-bg2 dark:bg-dark-bg p-4 sm:p-7 border-b-1 rounded-2xl shadow-b-sm dark:shadow-lg dark:shadow-dark-text2/10">
@@ -24,12 +29,14 @@ const SimpleCandidatesCard = ({name, photo, position, summary, localization, are
                         </div>
                     </section>
                     <footer className="mt-3">
-                        <button className="text-light-accent dark:text-dark-text2 hover:text-light-bg3 dark:hover:text-white hover:underline text-sm font-medium transition-colors duration-300">
+                        <button className="text-light-accent dark:text-dark-text2 hover:text-light-bg3 dark:hover:text-white hover:underline text-sm font-medium transition-colors duration-300" onClick={() => setShowExtended(true)}>
                             ver perfil completo
                         </button>
                     </footer>
                 </div>
             </article>
+
+            {showExtended && <ExtendCandidatesCard id={id} onClose ={() => setShowExtended(false)}/>}
            
         </>
     )

@@ -145,7 +145,7 @@ const Feed = () => {
                     <div className="grid grid-cols-1 overflow-hidden gap-3 w-full flex-1">
                         {currentCandidates.length > 0? (
                             currentCandidates.map(c => (
-                                <SimpleCandidatesCard key={c.if} {...c}/>
+                                <SimpleCandidatesCard key={c.id} {...c}/>
                             ))
                         ) : (
                             <div className="flex items-center justify-center h-64">
