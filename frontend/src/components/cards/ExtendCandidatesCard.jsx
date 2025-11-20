@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { CandidatesService } from "../service/CandidatesService"
+import { CandidatesService } from "../../service/CandidatesService"
 
 const ExtendCandidatesCard = ({id, onClose}) => {
     const [candidate, setCandidate] = useState({})
