@@ -27,7 +27,18 @@ const ExtendCandidatesCard = ({id, onClose}) => {
         setIsVisible(false)
         setTimeout(onClose, 300)
     }
-    console.log(candidate)
+
+    const handleRecommend = () => {
+        // Lógica para recomendar perfil
+        console.log("Recomendando perfil:", candidate.name)
+        alert(`Perfil de ${candidate.name} recomendado com sucesso!`)
+    }
+
+    const handleMessage = () => {
+        // Lógica para enviar mensagem
+        console.log("Enviando mensagem para:", candidate.name)
+        alert(`Mensagem enviada para ${candidate.name}`)
+    }
 
     if (!candidate.id) return null
 
@@ -61,6 +72,24 @@ const ExtendCandidatesCard = ({id, onClose}) => {
                             className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 text-2xl transition-colors duration-300 hover:scale-110 transform"
                         >
                             ×
+                        </button>
+                    </div>
+
+                    {/* Botões de ação */}
+                    <div className="flex gap-3 mb-6">
+                        <button 
+                            onClick={handleRecommend}
+                            className="flex-1 bg-light-accent hover:bg-light-bg3 text-white py-3 px-4 rounded-xl font-medium transition-all duration-300 hover:scale-105 transform shadow-lg hover:shadow-light-accent/25 flex items-center justify-center gap-2"
+                        >
+                            <span>⭐</span>
+                            Recomendar Perfil
+                        </button>
+                        <button 
+                            onClick={handleMessage}
+                            className="flex-1 bg-light-border dark:bg-dark-border hover:bg-light-text hover:text-white dark:hover:bg-dark-text2 dark:hover:text-dark-bg2 text-light-text dark:text-dark-text1 py-3 px-4 rounded-xl font-medium transition-all duration-300 hover:scale-105 transform shadow-lg border border-light-border dark:border-dark-border flex items-center justify-center gap-2"
+                        >
+                            <span>✉️</span>
+                            Enviar Mensagem
                         </button>
                     </div>
 
