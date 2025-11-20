@@ -2,7 +2,7 @@ import CandidatesRepository from "../repository/CandidatesRepository.js";
 const repository = new CandidatesRepository()
 
 class CandidatesController{
-    async listAll(req, res){
+    async listAll(_, res){
         try{
             const candidates = await repository.listAll()
             res.status(200).json(candidates)
@@ -11,7 +11,7 @@ class CandidatesController{
         }
     }
 
-    async listTopics(req, res){
+    async listTopics(_, res){
         try{
             const topics = await repository.listTopics()
             res.status(200).json(topics)
