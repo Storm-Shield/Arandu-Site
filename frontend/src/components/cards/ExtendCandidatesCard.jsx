@@ -1,9 +1,17 @@
 import { useEffect, useState } from "react"
 import { CandidatesService } from "../../service/CandidatesService"
+import { useNavigate } from 'react-router-dom';
 
 const ExtendCandidatesCard = ({id, onClose}) => {
     const [candidate, setCandidate] = useState({})
     const [isVisible, setIsVisible] = useState(false)
+    
+   
+    const navigate = useNavigate();
+    const handleMessage = () => {
+        navigate(`/message/${candidate.name}`);
+    }
+
     
     useEffect(() => {
         const fetchCandidatesById = async () => {
@@ -33,11 +41,7 @@ const ExtendCandidatesCard = ({id, onClose}) => {
         alert(`Perfil de ${candidate.name} recomendado com sucesso!`)
     }
 
-    const handleMessage = () => {
-        console.log("Enviando mensagem para:", candidate.name)
-        alert(`Mensagem enviada para ${candidate.name}`)
-    }
-
+    
     if (!candidate.id) return null
 
     return(
@@ -73,7 +77,6 @@ const ExtendCandidatesCard = ({id, onClose}) => {
                         </button>
                     </div>
 
-                    {/* Botões de ação */}
                     <div className="flex gap-3 mb-6">
                         <button 
                             onClick={handleRecommend}
