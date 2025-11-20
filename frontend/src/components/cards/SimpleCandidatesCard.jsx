@@ -38,6 +38,7 @@ const SimpleCandidatesCard = ({id, name, photo, position, summary, localization,
 
             {showExtended && <ExtendCandidatesCard id={id} onClose ={() => setShowExtended(false)}/>}
            
+           
         </>
     )
 }

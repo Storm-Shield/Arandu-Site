@@ -29,13 +29,11 @@ const ExtendCandidatesCard = ({id, onClose}) => {
     }
 
     const handleRecommend = () => {
-        // Lógica para recomendar perfil
         console.log("Recomendando perfil:", candidate.name)
         alert(`Perfil de ${candidate.name} recomendado com sucesso!`)
     }
 
     const handleMessage = () => {
-        // Lógica para enviar mensagem
         console.log("Enviando mensagem para:", candidate.name)
         alert(`Mensagem enviada para ${candidate.name}`)
     }

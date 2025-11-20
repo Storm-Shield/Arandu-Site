@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
 import Feed from "./pages/Feed";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Quiz from "./pages/Quiz";
 
 const Routers = () => {
@@ -13,6 +14,7 @@ const Routers = () => {
                 <Route path="/feed" element={<Feed/>}/>
                 <Route path="/quiz" element={<Quiz/>}/>
             </Routes>
+        <Footer/>
         </BrowserRouter>
     )
 }
