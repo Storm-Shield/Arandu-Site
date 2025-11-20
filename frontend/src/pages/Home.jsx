@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
 
                      <div className="grid grid-cols-1 lg:grid-cols-3 w-full mx-auto relative z-20">
-                         <div className="col-span-1 lg:col-span-2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left p-6 sm:p-8 lg:p-16 lg:pb-20">
+                         <div className="col-span-1 lg:col-span-2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left p-6 sm:p-8 lg:p-16 lg:pb-20 mt-11">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-light-text dark:text-dark-text1 mb-6 lg:mb-8 leading-tight">
                             Busque novas áreas e pessoas.<br/>Traduza suas habilidades para o novo mercado.
                         </h1>
@@ -34,10 +34,10 @@ const Home = () => {
                                 Encontre pessoas
                             </Link>
                             <Link 
-                                to="/cad" 
+                                to="/quiz" 
                                 className="px-6 py-4 sm:px-8 sm:py-4 lg:p-6 lg:px-12 rounded-xl font-medium border border-light-bg3 text-light-bg3 dark:text-dark-text2 dark:border-dark-text2 bg-transparent hover:bg-light-bg3 hover:text-white dark:hover:bg-dark-text2 dark:hover:text-dark-bg2 transition-colors duration-300 text-sm sm:text-base text-center"
                             >
-                                Cadastre-se
+                                Quiz
                             </Link>
                         </div>
 
@@ -54,7 +54,7 @@ const Home = () => {
                             <img 
                                 src="/logo/arandu-v.png" 
                                 alt="Logo" 
-                                className="w-auto h-full lg:h-80 xl:h-96 block dark:hidden"
+                                className="w-auto h-full block dark:hidden"
                             />
                             <img 
                                 src="/logo/arandu-v-dark.png" 

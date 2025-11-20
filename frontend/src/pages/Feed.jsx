@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { CandidatesService } from "../service/CandidatesService"
 import { useState } from "react"
 import SimpleCandidatesCard from "../components/SimpleCandidatesCard"
+import Header from "../components/Header"
 const Feed = () => {
     const [candidates, setCandidates] = useState([])
     const [currentPage, setCurrentPage] = useState(1)
@@ -68,6 +69,7 @@ const Feed = () => {
     const visiblePages = getVisiblePages()
     return(
         <>
+        <Header/>
             <main className="flex flex-col items-center p-8 justify-center container mx-auto pt-37 min-h-screen">
                     <h2 className="text-3xl font-light text-light-text dark:text-dark-text1 text-center mb-8">
                         Candidatos em Destaque
