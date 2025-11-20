@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { CandidatesService } from "../service/CandidatesService"
 import { useState } from "react"
-import SimpleCandidatesCard from "../components/SimpleCandidatesCard"
+import SimpleCandidatesCard from "../components/cards/SimpleCandidatesCard"
 import Header from "../components/Header"
 const Feed = () => {
     const [candidates, setCandidates] = useState([])
