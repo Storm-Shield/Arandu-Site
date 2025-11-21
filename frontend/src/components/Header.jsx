@@ -31,7 +31,7 @@ const Header = () => {
                     </div>
 
                     <div className="hidden md:flex items-center space-x-8">
-                        <Link to="/" className="text-light-text dark:text-dark-text1 transition-all duration-500 relative group font-medium text-lg">
+                        <Link to="/" className="text-light-text dark:text-dark-text1 hover:text-light-accent dark:hover:text-dark-text2 transition-colors duration-300 relative group font-medium">
                             Home
                             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-light-accent dark:bg-dark-text2 group-hover:w-full transition-all duration-300"></span>
                         </Link>
